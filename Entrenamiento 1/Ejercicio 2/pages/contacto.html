@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="secccion-header">
+            <ul class="header-ul">
+                <a href="../index.html"><li class="header-li">Home</li></a>
+                <p>|</p>
+                <a href="./pages/contacto.html"><li class="header-li">Contacto</li></a>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section class="seccion-formulario">  
+            <form action="">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" name="nombre" type="text" required>
+                </div>
+            
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" required>
+                </div>
+            
+                <div class="campo">
+                    <label for="tel">Tel:</label>
+                    <input id="tel" type="number" required>
+                </div>
+            
+                <div class="campo">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-botones">
+                <input class="form-boton-enviar" value="Enviar" type="submit">
+                <input class="form-boton-cancelar" value="Cancelar" type="reset">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>© Todos los Derechos Reservados</p>
+        </section>
+    </footer>
+</body>
+</html>
