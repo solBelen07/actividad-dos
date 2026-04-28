@@ -19,22 +19,19 @@ header{
     display: flex;
     justify-content: center;
     font-size: 2em;
+    background-color: rgb(235, 235, 235);
+    border: 0.01em solid black;
 }
 
 main{
-    height: 80vh;
+    height: 90vh;
     padding: 0em 5em 5em 5em ;
     width: 80%;
     background-color: rgb(235, 235, 235);
     overflow-y: auto;
-}
-
-footer{
-    height: 10vh;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-left: 0.01em solid black;
+    border-right: 0.01em solid black;
+    border-bottom: 0.01em solid black;
 }
 
 .secccion-header{
